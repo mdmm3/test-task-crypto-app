@@ -1,0 +1,10 @@
+.navlink {
+  color: var(--mantine-color-white);
+  text-decoration: none;
+  padding: 12px;
+}
+
+.navlink[aria-current="page"] {
+  font-weight: bold;
+  color: var(--mantine-color-blue-6);
+}
