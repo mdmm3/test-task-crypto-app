@@ -6,6 +6,8 @@ export const LOCALSTORAGE_KEYS = {
   ratesItemsPerPage: 'ratesItemsPerPage',
 }
 
+export const CONVERT_COMMISION_PERCENT = 3; // n%
+
 export const USER_MOCK_CREDENTIALS: Credentials = {
   username: 'demo',
   password: 'demo',

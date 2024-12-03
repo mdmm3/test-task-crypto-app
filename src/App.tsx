@@ -4,6 +4,7 @@ import { Routes, Route } from 'react-router-dom';
 import ProtectedRoute from '@/shared/components/ProtectedRoute';
 import LoginPage from '@/pages/LoginPage';
 import RatesPage from '@/pages/RatesPage';
+import ConvertPage from '@/pages/ConvertPage';
 import useRatesStore from '@/services/ratesStore';
 import useAuthStore from '@/services/authStore';
 
@@ -35,7 +36,7 @@ function App() {
         path="/convert"
         element={
           <ProtectedRoute>
-            Convert
+            <ConvertPage />
           </ProtectedRoute>
         }
       />
